@@ -18,22 +18,22 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7987591680:")
-APP_ID = int(os.environ.get("APP_ID", "9680463")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "abe7eef58121f62d19aa872a4510bbaf") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002569262484")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7602378117")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002736654145")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "WRROHIT02") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "5783103507")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://cinamaj445:UGdvapVczr1kMEkF@cluster0.zik1uzr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "cinamaj445")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/bolomotu")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/bolomotu/1378")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
